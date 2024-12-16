@@ -1,0 +1,131 @@
+/* تنسيقات عامة */
+body {
+    font-family: 'Cairo', sans-serif; /* استخدام خط Cairo */
+    background-color: #f4f4f4; /* خلفية فاتحة */
+    margin: 0;
+    padding: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* تنسيق الهيدر */
+  .header {
+    width: 100%;
+    height: 95px;
+    background-color: #005b7b; /* الأزرق الداكن */
+    border-radius: 20px 20px 0 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .header .header-item {
+    font-size: 24px; /* النص بحجم كبير */
+    font-weight: 600; /* خط عريض */
+    text-decoration: underline;
+  }
+  
+  /* تنسيق النصوص الرئيسية */
+  .text-large {
+    font-size: 32px;
+    font-weight: 600;
+    color: #519db7; /* الأزرق الفاتح */
+    text-align: right;
+  }
+  
+  .text-normal {
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    text-align: right;
+  }
+  
+  .text-muted {
+    font-size: 20px;
+    font-weight: 600;
+    color: #7d7777; /* اللون الرمادي */
+    text-align: right;
+  }
+  
+  /* المربعات المنسدلة (مثل الحقول) */
+  .input-box {
+    width: 289px;
+    height: 53px;
+    background-color: white;
+    border: 1px solid #7d7777;
+    border-radius: 20px;
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  /* المربعات (مثل المربعات المحتوية على معلومات) */
+  .box {
+    background-color: #dbefff; /* الأزرق الفاتح */
+    border-radius: 20px;
+    margin: 20px 0;
+    padding: 20px;
+  }
+  
+  /* الأيقونات */
+  .icon {
+    width: 40px;
+    height: 40px;
+    background-color: #419be4; /* لون الأيقونة */
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  
+  .icon-border {
+    border: 2px solid #419be4;
+  }
+  
+  /* التنسيقات للحقول الخاصة بالمعلومات */
+  .field-label {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+  }
+  
+  .field-value {
+    font-size: 18px;
+    font-weight: 600;
+    color: #7d7777;
+    text-align: right;
+  }
+  
+  /* التنسيق للأزرار أو الحقول التي بها نص */
+  .button {
+    background-color: #519db7; /* اللون الأزرق الفاتح */
+    border-radius: 20px;
+    padding: 15px 30px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  
+  .button:hover {
+    background-color: #417d92; /* تغيير اللون عند التمرير */
+    cursor: pointer;
+  }
+  
+  /* التنسيق للصورة أو الأيقونات في التصميم */
+  .img-circle {
+    width: 34px;
+    height: 34px;
+    background-color: #419be4; /* الأزرق */
+    border-radius: 50%;
+  }
+  
